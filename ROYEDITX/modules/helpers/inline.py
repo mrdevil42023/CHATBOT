@@ -49,7 +49,7 @@ HELP_BTN = [
 #####
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", url=f"https://github.com/tinaarobot/CHATBOT"),
+        InlineKeyboardButton(text="ʀᴇᴘᴏ", url=f"https://graph.org/file/4aba7a36891acb0646775.mp4"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="CLOSE"),
     ],
 ]
