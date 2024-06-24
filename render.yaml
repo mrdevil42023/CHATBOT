@@ -1,7 +1,5 @@
-services:
-  - type: web
-    name: CHATBOT
-    env: python
-    plan: free
-    buildCommand: pip3 install --no-cache-dir --upgrade --requirement requirements.txt
-    startCommand: python3 -m ROYEDITX
+build:
+  docker:
+    worker: Dockerfile
+run:
+  worker: python3 -m ROYEDITX
